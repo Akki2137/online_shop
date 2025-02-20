@@ -6,7 +6,7 @@ services:
     image: online-shop-image:latest
     build:
       context: .
-      dockerfile: Dockerfile_Backup
+      dockerfile: Dockerfile
     ports:
       - "3000:5173"
     volumes:
